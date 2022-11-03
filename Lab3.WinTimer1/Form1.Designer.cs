@@ -28,12 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.userControlTimer1 = new Lab3.WinTimer1.UserControlTimer();
+            this.SuspendLayout();
+            // 
+            // userControlTimer1
+            // 
+            this.userControlTimer1.Location = new System.Drawing.Point(270, 179);
+            this.userControlTimer1.Name = "userControlTimer1";
+            this.userControlTimer1.Size = new System.Drawing.Size(188, 188);
+            this.userControlTimer1.TabIndex = 0;
+            this.userControlTimer1.TimeEnabled = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.userControlTimer1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private UserControlTimer userControlTimer1;
     }
 }
