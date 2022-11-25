@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3.WinTimer1", "Lab3.WinTimer1\Lab3.WinTimer1.csproj", "{4CF73BF5-EFB9-4636-A5A4-C9D2A575D3D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsControlLibrary1", "WinFormsControlLibrary1\WinFormsControlLibrary1.csproj", "{0B869006-C4AF-420C-9CF1-7DB19D30863E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4CF73BF5-EFB9-4636-A5A4-C9D2A575D3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CF73BF5-EFB9-4636-A5A4-C9D2A575D3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CF73BF5-EFB9-4636-A5A4-C9D2A575D3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B869006-C4AF-420C-9CF1-7DB19D30863E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B869006-C4AF-420C-9CF1-7DB19D30863E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B869006-C4AF-420C-9CF1-7DB19D30863E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B869006-C4AF-420C-9CF1-7DB19D30863E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
